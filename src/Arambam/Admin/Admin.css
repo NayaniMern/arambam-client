@@ -1,0 +1,146 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family:"Merriweather Sans", sans-serif;
+}
+.admin-container{
+background-image: url(assets/banner2.jpg);
+  width: 100%;
+  height: 100%;
+background-position: center;
+background-size: cover;
+
+}
+
+
+.adminlog .col-lg-6 {
+  box-shadow: 0 4px 15px  #89ac46!important;
+}
+
+
+.login input {
+  height: 50px;
+}
+.adminlog button,.view-enquiry .submit,.viewblogs .submit,.addblog button{
+background-color: #C8E6C9;
+  color: #2E7D32;
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid #2E7D32;
+  padding: 6px 16px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+.adminlog button:hover,.view-enquiry .submit:hover,.viewblogs .submit:hover,.addblog button:hover{
+ background-color: #A5D6A7;
+  color: #1B5E20;
+}
+
+ 
+
+  
+  
+
+  .dashboard aside {
+    text-align: center;
+    padding: 50px 20px;
+    border-right: 1px solid transparent;
+    background-color: #96f598;
+    
+    height: auto;
+  }
+  @media (min-width:992px){
+    
+  .dashboard aside {
+    position: sticky;
+    height: 100%;
+    top:10px;
+  }
+  }
+  
+  .dashboard .main button {
+    width: 100%;
+    height: 45px;
+    border: 1px solid transparent;
+    margin-bottom: 10px;
+ 
+    border-radius: 10px;
+    
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #C8E6C9;
+  color: #2E7D32;
+
+  border: 1px solid #2E7D32;
+  
+ 
+  transition: all 0.3s ease;
+  }
+  .dashboard .main button:hover{
+     background-color: #A5D6A7;
+  color: #1B5E20;
+  }
+  .dashboard h2 {
+    text-transform: uppercase;
+    color: #2E7D32;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+  }
+  .welcome,.view-enquiry,.addblog,.view-article{
+    background-image: url(assets/banner2.jpg);
+  width: 100%;
+  height: 100%;
+background-position: center;
+background-size: cover;
+    
+  }
+   .viewblogs{
+    background-image: url(assets/banner2.jpg);
+  width: 120%!important;
+  height: 100%;
+background-position: center;
+background-size: cover;
+    
+  }
+  .welcome .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+.welcome h2 {
+  font-size: 27px;
+  color: #167919;
+  margin-bottom: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.welcome h1 {
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.welcome p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  color: black;
+}
+
+  
+
+
